@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-p#b+48%5o@)d(f#qw5ssw&5p1x#w_igxl4cw*_x(%7ne=9fua7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['newdataextra.azurewebsites.net','localhost']
+ALLOWED_HOSTS = ['newdataextra.azurewebsites.net','localhost','testdatabricks.azurewebsites.net']
 
 
 # Application definition
