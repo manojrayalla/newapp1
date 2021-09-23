@@ -32,10 +32,10 @@ def response_view(request):
  transaction_type = request.POST['transaction_type']
 
 
- url = "https://adb-6076521216751275.15.azuredatabricks.net/api/2.0/jobs/run-now"
- bearer_token = "dapifb1e86a0451706e06f0b76ee7678f03e-3"
+ url = "https://adb-7827527401685361.1.azuredatabricks.net/api/2.0/jobs/run-now"
+ bearer_token = "dapi9fccece3ab93543c9297e116a00ed7c8-2"
  notebook_params = '{'+'"definition_column_query"'+':'+'"{0}"'.format(source_queries_table_name)+',"source_queries_schema_name"'+':'+'"{0}"'.format(source_queries_schema_name)+',"source_queries_table_column"'+':'+'"{0}"'.format(source_queries_table_column)+',"source_queries_table_name"'+':'+'"{0}"'.format(source_queries_table_name)+',"transaction_type"'+':'+'"{0}"'.format(transaction_type)+'}'
- job_id = 84
+ job_id = 52
  
  headers = CaseInsensitiveDict()
  headers["Authorization"] = "Bearer {}".format(bearer_token)
